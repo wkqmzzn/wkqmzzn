@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>20213612俞嘉美</title>
+   <style type="text/css">
+    body{font-size:30px;
+	height:2000px;
+	}
+	div{
+		width:650px;
+		text-align:center;
+		line-height:1.5em;
+		 }
+    div#box1
+	{
+		font-size:0.9em;
+		position:relative;
+		left:10px;
+		top:50px;
+		line-height:1.3em;
+		padding:0.5em;
+	    }
+	div#box2
+		{position:relative;
+		 width:700px;
+		 border:2px solid ;
+		 border-radius:2em;
+		 padding:0.3em;
+		 padding-bottom:1.5em;
+		 font-family:楷体;
+		 right:-700px;
+		 top:-850px;
+		 background-color:rgba(245,245,220,0.2);
+		 line-height:15px;
+		 text-align: left;
+			}
+	div#box3{
+		position:relative;
+		font-size:0.5em;
+		text-align:center;
+		top:-1470px;
+		left:10px;
+		background-size:100%;
+		border:10px solid black ;
+		width:600px;
+		border-radius:5em;
+		background:white;
+		height:600px;
+		line-height:50px;
+		font-size:20px;
+		padding:0.8em;
+		}
+		p{ line-height: 20px;
+		font-size: 20px;}
+    h1{
+	border-radius:1em;
+	letter-spacing:0.2em;
+	}
+	h2{	
+	border:5px solid ;
+	font-size:1.5em;
+	background-color:black;
+	color:white;
+	line-height:55px;
+	}
+	h3{
+	font-family:宋体;
+	font-size:25px;
+	border:2px dashed;
+	background-color:rgba(250,235,215,0.7);
+	}
+	div#title{
+
+        background-color: black;
+        border-color: #0dc166;
+        border-radius: 0 2px 2px 0;
+        color: #fff !important;
+        float: left;
+        font-weight: bold;
+        left: -16px;
+		width:100%;
+        padding: 0px 6px 0px 10px;
+        position: relative;
+		top:-10px;
+		height:80px;
+	}
+  </style>
+  </head>
+ <body>
+	<div id="title">
+	<p>标题：对linux的一些理解和命令的学习</p>
+	</div>
+	<div id="box1">
+	<h2>简介：</h2>
+		<h3>
+在9月13号的学习中，我们简单的学习了几个命令，及这些命令的使用，我们使用git bash这个终端仿真器去和shell进行交互，打开软件会出现  [用户名@主机名 ~]$  这样类似的文字，代表shell已经准备好接受命令，对于在git bash中的命令我们通常只会用到键盘来完成，比起图形化界面系统GUI，CLL会让我们与电脑能进行更好的交流，更好的完成一些复杂的任务，CLL使我们用电脑完成一些复杂的任务成为可能。</h3><h3>在今天的学习中我了解到，不能像windows一样用快捷键ctrl+c ctrl+v进行复制粘贴，因为他们在shell中有别的任务，我们学习了几个命令来实现对系统的操作比如对文件进行特定搜索，还有按键进行快速的输入名字，还有如何在shell中打开文件等功能，还实现了对文件的移动和改名等操作，还学习了几个符号的代表意义，还有递归的显示文件的方式，还有一些思维方式。下面就让我来介绍几个学习的命令行：</br>
+<video src="d:/yujiamei/videoMP4/上瘾.mp4" controls></video>
+		</h3>
+	</div>
+	<div id="box2">
+		<h2>命令：</h2>
+		递归工作文件夹
+		<p>$ ls /d/yujiamei -R</p>
+<p>/d/yujiamei:</p>
+<p>homework/  mp3/  myface/  pdf/  videoMP4/</p>
+
+<p>/d/yujiamei/homework:</p>
+<p>20213612-0906.txt</p>
+
+<p>/d/yujiamei/mp3:</p>
+<p>LinuxCMD-0.mp3  LinuxCMD-1.mp3  LinuxCMD-2.mp3</p>
+
+<p>/d/yujiamei/myface:</p>
+<p>yjm.jpg</p>
+
+<p>/d/yujiamei/pdf:</p>
+<p> Eloquent_JavaScript.pdf</p>
+<p>'Learn CSS in One Day and Learn It Well.pdf'</p>
+<p>'The Linux Command Line A Complete Introduction.pdf'</p>
+
+<p>/d/yujiamei/videoMP4:</p>
+<p>2013东西方2马的交锋.mp4  上瘾.mp4              农民吹牛.mp4</p>
+<p>funDogs.mp4              世界冠军江西弃婴.mp4  逗八哥狗.mp4</p>
+
+
+在课堂上学习的命令:
+<p>先用cd转换到对应的工作文件</p>
+<p>cat 文件的路径（打开对应路径上的文件）</p>
+<p>mv 目标文件路径【包括文件名】 目的文件路径【包括文件名】</br>（将目标文件移动到目的路径上去）</p>
+<p>mv 目标文件路径</p>
+<p>ls 上级文件路径/*.[mp3|pdf]（显示上级文件中所有格式为MP3或者pdf的文件）</p>
+<p>ls -R（以递归的方式显示当前文件夹所有文件，包括子文件中的所有内容）</p>
+<p>cd（回到根目录）</p>
+<p>cd ..(回到上级目录，..代表父目录，.代表工作目录)</p>
+在书上学习的内容：
+<p>date （显示当前的时间和日期）</p>
+<p>df （查看磁盘剩余空间的数量）</p>
+<p>cd -（更改工作目录到先前的工作目录）</p>
+<p>ls -a （查看隐藏文件）</br>用浏览器打开对应视频文件的命令：
+#!/bin/sh</p>
+
+<p>"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" </p><p> 'file:///D:/yujiamei/videoMP4/上瘾.mp4'$1
+</p>
+		</div>
+	<div id="box3"><h2>总结：</h2>
+	在类unix操作系统中，时以分层目录结构来组织所有文件，类似一颗目录的大树，只不过是倒着的，和window不同它其中只有一颗目录树，我们需要用命令来显示这棵”树“可以用ls或者pwd来显示对应路径，其次linux对大小写非常敏感，类似-r就不可以用，-R就可以使用，linux中没有后缀名的概念，在改名等操作中我们可以意识到光标对shell的移动不是用鼠标进行的，而是用左右按键进行的如果打错了路径，按下了回车，我们还可以使用上键来回到输入的上一条指令，这大大的节约了时间，提高了效率也提醒了我们最重要的并非鼠标而是键盘。
+	</div>
+ </body>
+</html>

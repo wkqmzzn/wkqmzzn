@@ -1,0 +1,228 @@
+标题：0906学习报告
+简介:
+在老师的教学下下载了git bash x64版本这个软件，下载下来后可以直接安装，下载后第一件事就是设置用户，然后学习一些针对本地文件夹的操作，想打开本地文件夹有两种方法，第一个是直接在电脑上打开本地文件夹，第二个是用这个软件打开，用cd命令在git bash中输入路径即可打开，这节课并没有学在git bash中关于数据库的操作只学习了关于本地文件的操作，在训练完之后输入exit退出程序，但历史记录仍然能保留。
+今日学习几条简单的命令：
+1.ls（打开当前目录的所有文件）
+2.cd directory（改变目录到地址）
+3.rm（删除指定文件）
+4.mkdir filename（创建一个名称为filename的文件夹）
+5.pwd（显示当前目录的路径）
+6.history（调出输入过的历史记录）
+7.tap按键（按三个按钮后按tap按键可自动补全名称）
+8.cp source destina（复制文件到指定地址）
+9.mv source destina（可以对命令重命名和移动文件）
+10.cd ..（退出当前文件夹，回到上一个文件夹）
+11.touch filename（新建文件）
+12.exit（退出程序）
+
+
+    1  ls
+    2  mkdir yujiamei
+    3  ls
+    4  ls d:/
+    5  ls
+    6  rmdir yujiamei/
+    7  ls
+    8  pw
+    9  pwd
+   10  ls
+   11  ls pw
+   12  ls
+   13  pw
+   14  pwd
+   15  mkdir /d
+   16  mkdir /D
+   17  ls -r
+   18  ls
+   19  pw
+   20  pw --help
+   21  pwd
+   22  ls d/
+   23  history 
+   24  pw
+   25  ls
+   26  ls D/
+   27  ls d/
+   28  ls d:/
+   29  mkdir D:/yujiamei/
+   30  ls
+   31  pw
+   32  ls D:/yujiamei/
+   33  ls d:/yujiamei/.
+   34  ls D:/
+   35  ls D:/yujiamei/
+   36  ls D:/yujiamei
+   37  cp yujiame/* .
+   38  cp D:/yujiamei/* .
+   39  pwd
+   40  pw
+   41  cp D:/yujiamei .
+   42  cp D:/yujiamei -r .
+   43  ls
+   44  rm 自画像.png
+   45  ls
+   46  cd
+   47  ls
+   48  cd d:/
+   49  ls
+   50  cp yujiamei/* .
+   51  rm 自画像.png
+   52  ls
+   53  history
+   54  ls /yujiamei
+   55  ls yujiamei/
+   56  cp /yujiamei/* .
+   57  cp yujiamei/* .
+   58  ls
+   59  rm 自画像.png
+   60  ls
+   61  history
+   62  tree
+   63  mv 自画像.png yujm.png
+   64  mv yujiamei yujm
+   65  ls
+   66  history
+   67  history 
+   68  pwd
+   69  history >20213612-0906.txt
+   70  history >20213612/0906.txt
+   71  pwd
+   72  ls
+   73  cd
+   74  ls
+   75  cd
+   76  ls
+   77  mkdir yujiamei
+   78  mkdir yujiamei/
+   79  cd d:/
+   80  madir yujiamei/
+   81  mkdir yujiamei
+   82  cp yujm/* yujiamei
+   83  ls yujiamei/
+   84  rmdir yujiamei
+   85  rmdir yujiamei/*
+   86  rm yujiamei/*
+   87  rmdir yujiamei
+   88  ls
+   89  pwd
+   90  ls
+   91  mv yujm/自画像.png zihuaxiang.png
+   92  ls yujiamei/
+   93  ls yujm/
+   94  mv zihuaxiang.png yujm/zhx.png
+   95  ls yujm
+   96  history
+   97  history
+   98  ls
+   99  cd d:
+  100  ls
+  101  ls yujm/
+  102  cp yujm/zhx.png
+  103  cp yujm/zhx.png /.
+  104  ls
+  105  cp yujm/zhx.png .
+  106  ls
+  107  rm zhx.png
+  108  ls
+  109  mv yujm/zhx.png zhhx.png
+  110  ls yujm
+  111  ls yujm/
+  112  ls
+  113  mv zhhx.png yujm/zhhx.png
+  114  ls yujm/
+  115  exit
+  116  history
+  117  status yujm/
+  118  status yujm/zhhx.png
+  119  git version
+  120  git status yujm/
+  121  cd
+  122  cd d:
+  123  git status yujm/
+  124  yujm status
+  125  hlep
+  126  help
+  127  mv yujm/zhhx,png .
+  128  mv yujm/zhhx.png .
+  129  ls
+  130  ls
+  131  cp zhhx.png yujm/
+  132  ls yujm
+  133  rm zhhx.png
+  134  history 
+  135  ls
+  136  mv yujm/zhhx.png e:
+  137  ls e:
+  138  cd e:
+  139  ls
+  140  cd d:
+  141  ls
+  142  mv e: e:/zhx.png
+  143  ls e:/
+  144  mv e:/zhx.png .
+  145  ls
+  146  cp zhx.png yujm/
+  147  ls yujm/
+  148  mv yujm yujiamei
+  149  ls
+  150  rm zhx.png
+  151  ls
+  152  history 
+  153  ls yujm/
+  154  ls yujiamei
+  155  mv yujiamei/zhx.png
+  156  mv  yujiamei/zhx.png yujiamei zh.png
+  157  mv yujiamei/zhzx.png yujiamei/zh.png
+  158  mv yujiamei/zhx.png yujiamei/zh.jpg
+  159  ls yujiamei/
+  160  cp yujiamei/zh.jpg .
+  161  ls
+  162  mv zh.jpg zhx.png
+  163  re zhx.png
+  164  rm zhx.png
+  165  ls yujiamei
+  166  mv yujiamei/zh.jpg yujiamei/zhx.png
+  167  ls yujiamei
+  168  lsls
+  169  ls
+  170  history 
+  171  cd yujiamei/
+  172  ls
+  173  zhx.png
+  174  mv zhx.png yjm.png
+  175  ls
+  176  mv yjm.png/20213612.png
+  177  mv yjm.png 20213612.png
+  178  ls
+  179  mv 20213612.png yjm.png
+  180  ls
+  181  hsi
+  182  history 
+  183  cp yjm.png 20213612.png
+  184  ls
+  185  rm 20213612.png
+  186  history 
+  187  ls
+  188  mv yjm.png yjm.jpg
+  189  cd d:
+  190  ls
+  191  cp yujiamei/yjm.jpg yjm.jpg
+  192  ls
+  193  ls
+  194  rmyjm.jpg
+  195  rm yjm.jpg
+  196  ls
+  197  ls yujiamei
+  198  ls
+  199  history 
+  200  ls
+  201  cd c:
+  202  ls
+  203  cd e:
+  204  cd d:
+  205  ls
+  206  cd yujiamei/
+  207  ls
+  208  his
+  209  history 
+  210  history >20213612-0906.txt
