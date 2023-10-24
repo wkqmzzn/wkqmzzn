@@ -1,0 +1,78 @@
+<doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">  
+  <title>作业五</title>
+  <script type="text/javascript">
+	var MP4=["v0201ag10000caikc13c77udap1dkdb0","v02004a40000bproefir863oaub47slg","v02004a40000bproicl7gl1h25fgjoeg"];
+  </script>
+    <style type="text/css">
+	input{
+	font-size:2em;
+	margin-right:2em;
+    cursor: pointer;
+    height: 50px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 155px;
+	}
+	*{margin:auto;
+	text-align:center;}
+	.submit{}
+  </style>
+ </head>
+ <body>
+  <video src="v0201ag10000caikc13c77udap1dkdb0" id="videoq">
+  </video>
+ <div >
+	<input type="button" value="play" id="play">
+	<input type="button" value="pause" id="pause">
+	<input type="button" value="pre" id="pre">
+	<input type="button" value="next" id="next">
+
+</div>
+ </body>
+<script type="text/javascript">
+<!--
+	  var myVideo=document.getElementById("videoq") ;
+	  var playB=document.getElementById("play") ;
+	  var nextB=document.getElementById("next") ;
+	  var pauseB=document.getElementById("pause") ;
+	  var preB=document.getElementById("pre") ;
+	  var i=0 ;
+	  playB.onclick=function(){
+		myVideo.play();
+	  }
+	  pauseB.onclick=function(){
+		myVideo.pause();
+	  }
+	  nextB.onclick=function(){
+		if(i>=MP4.length-1)
+		 {
+			i=0;
+			myVideo.src=MP4[0];
+			myVideo.play();}
+		else{
+			i++;
+			myVideo.src=MP4[i];
+			myVideo.play();
+			}
+		}
+	  pre.onclick=function(){
+		if(i<=0){
+			i=MP4.length-1 ;
+			myVideo=MP4[i] ;
+			myVideo.play();
+		}
+		else{
+			i--;
+			myVideo.src=MP4[i] ;
+			myVideo.play();}
+	}
+
+//-->
+</script>
+
+
+</html>
