@@ -20,24 +20,43 @@
 <meta name="msapplication-navbutton-color">
 
 <script>
+
 	window.selectedColor = ''
+
 	window.themeColor = localStorage.getItem("theme-color") || "#7af"
+
 	window.changeColor = function(themeColor){
+
 		document.documentElement.style.setProperty('--theme-color', themeColor);
+
 		document.querySelector("meta[name=theme-color]").setAttribute("content", themeColor);
+
 		document.querySelector("meta[name=apple-mobile-web-app-status-bar-style]").setAttribute("content", themeColor);
+
 		document.querySelector("meta[name=msapplication-navbutton-color]").setAttribute("content", themeColor);
+
 		localStorage.setItem('theme-color', themeColor)
+
 	}
+
 	changeColor(themeColor)
 
+
+
 	window.isPhone = /Android|iOS|iPhone|iPad|iPod|Windows Phone|KFAPWI/i.test(navigator.userAgent) || (window.innerWidth <= 1370)
+
 	window.isHome = true
+
 	window.isPost = false
+
 	if(window.isPost){
+
 		window.isReward = false
+
 	}
+
 </script>
+
 
 <link rel="manifest" href="https://tomotoes.com/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
@@ -57,10 +76,15 @@
 </script>
 <script>
 
+
 	window.dataLayer = window.dataLayer || [];
+
 	function gtag(){dataLayer.push(arguments);}
+
 	gtag('js', new Date());
+
 	gtag('config', 'UA-109696496-3');
+
 </script>
 <link rel="canonical" href="https://tomotoes.com/blog/">
 <link rel="alternate" type="application/atom+xml" title="一个坏掉的番茄" href="/blog/atom.xml">
@@ -76,39 +100,73 @@
 <meta name="twitter:creator" content="Simon Ma">
 <script type="application/ld+json">
 
+
 {
+
     /*"@context": "http://schema.org",
+
     "@type": "Blog",
+
     "author": {
+
         "@type": "Person",
+
         "name": "Simon Ma",
+
         "image": {
+
             "@type": "ImageObject",
+
             "url": "https://cdn.jsdelivr.net/gh/Tomotoes/images/blog/avatar.jpg"
+
         },
+
         "description": "Input &amp; Think &amp; Output"
+
     },*/
+
     "publisher": {
+
         "@type": "Organization",
+
         "name": "俞嘉美的主页",
+
         "logo": {
+
             "@type": "ImageObject",
+
             "url": "https://tomotoes.com/images/PWA/192.png"
+
         }
+
     },
+
     "url": "https://tomotoes.com/blog",
+
     "logo": "https://tomotoes.com/images/PWA/192.png",
+
     "image": {
+
         "@type": "ImageObject",
+
         "url": "https://tomotoes.com/images/PWA/192.png"
+
     },
+
     "mainEntityOfPage": {
+
         "@type": "WebPage",
+
         "@id": "https://tomotoes.com/blog"
+
     },
+
     "keywords": "一个坏掉的番茄,Blog,博客,Tomotoes,SimonMa,SimonAKing,Codenter,jinma,马寂寞",
+
     "description": "Input &amp;amp; Think &amp;amp; Output - Simon Ma - 俞嘉美"
+
 }
+
 </script>
 <!--[if lt IE 9]>
 <style>
@@ -152,20 +210,32 @@
  Yu Jiamei的主页</h1>
 <h5 class="subtitle">
  Input &amp; Think &amp; Output<br><br></h5>
+
  <div class="nav-tool">
+
  <h5>
+
 <a class="nav-tool-item exchange" data-title="简繁互换" href="javascript:translatePage();">
+
 <i class="fade icon icon-lg icon-zhuanhuan custom-exchange">
+
 </i>
+
 </a>&emsp;
 &nbsp;&nbsp;
 <a class="nav-tool-item picker" data-title="调色板" id="color-picker-icon"><i class="fade icon icon-lg icon-color-palette-outlin custom-picker"></i></a>
-&emsp;&nbsp; &nbsp;
+&emsp;&nbsp; 
+&nbsp;
 <a class="nav-tool-item light" data-title="关灯" href="javascript:switchNightMode();">
+
 <i class="fade icon icon-lg icon-lightbulbo custom-lightbulb">
+
 </i>
+
 </a><br>
+
 简繁互换     调色板     关灯</h5>
+
 </div>
 </div>
 </div>
@@ -192,6 +262,7 @@
 </a>
 </div>
 </div>
+
 
 </article>
 </li>
@@ -260,6 +331,7 @@
 </div>
 </div>
 </article>
+
 
 </li>
 <li class="post-list-item fade">
